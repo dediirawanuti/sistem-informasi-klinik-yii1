@@ -504,7 +504,7 @@
 			<div class="status button">
 				<div class="status-top">
 					<div class="left">
-						© <?php echo date('Y'); ?> - <?php echo $_SESSION['site_name']; ?>. <a href="https://www.linkedin.com/in/ridwan-taufik-b3624325a/" target="_blank">RIDWAN</a>.
+						© <?php echo date('Y'); ?> - <?php echo $_SESSION['site_name']; ?>.
 					</div>
 				</div>
 			</div>

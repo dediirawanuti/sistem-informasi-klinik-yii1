@@ -4259,3 +4259,20 @@ HTTP_REFERER=http://localhost/sistem-informasi-klinik-yii1/users/create
 2023/08/16 16:52:31 [warning] [application] Gagal mengeset atribut unsafe "password" dari kelas "Users".
 in C:\laragon\www\sistem-informasi-klinik-yii1\protected\controllers\UsersController.php (85)
 in C:\laragon\www\sistem-informasi-klinik-yii1\index.php (14)
+2023/08/17 16:30:33 [error] [php] Undefined array key "" (C:\laragon\www\sistem-informasi-klinik-yii1\protected\views\dashboard\index.php:9)
+Stack trace:
+#0 C:\laragon\www\sistem-informasi-klinik-yii1\yii-core\framework\web\CController.php(869): DashboardController->renderFile()
+#1 C:\laragon\www\sistem-informasi-klinik-yii1\yii-core\framework\web\CController.php(782): DashboardController->renderPartial()
+#2 C:\laragon\www\sistem-informasi-klinik-yii1\protected\controllers\DashboardController.php(29): DashboardController->render()
+#3 C:\laragon\www\sistem-informasi-klinik-yii1\yii-core\framework\web\actions\CInlineAction.php(49): DashboardController->actionIndex()
+#4 C:\laragon\www\sistem-informasi-klinik-yii1\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\laragon\www\sistem-informasi-klinik-yii1\yii-core\framework\web\CController.php(286): DashboardController->runAction()
+#6 C:\laragon\www\sistem-informasi-klinik-yii1\yii-core\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#7 C:\laragon\www\sistem-informasi-klinik-yii1\yii-core\framework\web\CWebApplication.php(282): DashboardController->run()
+#8 C:\laragon\www\sistem-informasi-klinik-yii1\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\laragon\www\sistem-informasi-klinik-yii1\yii-core\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\laragon\www\sistem-informasi-klinik-yii1\index.php(14): CWebApplication->run()
+REQUEST_URI=/sistem-informasi-klinik-yii1/dashboard
+in C:\laragon\www\sistem-informasi-klinik-yii1\protected\views\dashboard\index.php (9)
+in C:\laragon\www\sistem-informasi-klinik-yii1\protected\controllers\DashboardController.php (29)
+in C:\laragon\www\sistem-informasi-klinik-yii1\index.php (14)
